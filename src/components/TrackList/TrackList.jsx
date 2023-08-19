@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import './TrackList.css'
 import Track from "./../Track/Track";
 
@@ -18,5 +19,12 @@ const TrackList = ({ tracks, onAdd, isRemoval, onRemove }) => {
     </div>
   );
 };
+
+TrackList.propTypes = {
+  tracks: PropTypes.node,
+  onAdd: PropTypes.node,
+  isRemoval: PropTypes.node,
+  onRemove: PropTypes.node,
+}
 
 export default TrackList;

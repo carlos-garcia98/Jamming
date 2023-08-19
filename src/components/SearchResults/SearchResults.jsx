@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import './SearchResults.css';
 import TrackList from "../TrackList/TrackList";
 
@@ -11,5 +12,10 @@ const SearchResults = ({ searchResults, onAdd }) => {
     </div>
   );
 };
+
+SearchResults.propTypes = {
+  searchResults: PropTypes.node,
+  onAdd: PropTypes.node
+}
 
 export default SearchResults;

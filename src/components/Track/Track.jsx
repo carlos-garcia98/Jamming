@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import "./Track.css";
 import { useCallback } from "react";
 
@@ -36,5 +37,12 @@ const Track = ({ track, isRemoval, onAdd, onRemove }) => {
     </div>
   );
 };
+
+Track.propTypes = {
+  track: PropTypes.node,
+  isRemoval: PropTypes.node,
+  onAdd: PropTypes.node,
+  onRemove: PropTypes.node,
+}
 
 export default Track;

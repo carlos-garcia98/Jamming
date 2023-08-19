@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import './SearchBar.css';
 import { useState, useCallback } from 'react';
 
@@ -35,5 +36,9 @@ const SearchBar = ({ onSearch }) => {
       </>
     );
   };
+
+  SearchBar.propTypes = {
+    onSearch: PropTypes.node,
+  }
   
   export default SearchBar;

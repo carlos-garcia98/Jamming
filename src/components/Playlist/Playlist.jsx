@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import TrackList from "../TrackList/TrackList";
 import "./Playlist.css";
 
@@ -20,5 +21,10 @@ const Playlist = ({ playlistTracks, onRemove }) => {
     </div>
   );
 };
+
+Playlist.propTypes = {
+  playlistTracks: PropTypes.node,
+  onRemove: PropTypes.node,
+}
 
 export default Playlist;
