@@ -1,0 +1,44 @@
+.playlist {
+  color: #fff;
+  text-align: center;
+  border-radius: 0.5rem;
+  width: 50%;
+}
+
+.playlist__name {
+  width: 90%;
+  padding: 0.5rem;
+  background-color: transparent;
+  color: #fff;
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+}
+
+.playlist__tracklist {
+  border: 1px solid #fff;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: left;
+}
+
+.playlist__save {
+  width: 70%;
+  height: 2.5rem;
+  padding: 0.5rem;
+  background-color: transparent;
+  color: #1dd05d;
+  border: 1px solid #1dd05d;
+  border-radius: 0.7rem;
+}
+
+.playlist__save:hover {
+  background-color: #1dd05d;
+  color: #fff;
+  box-shadow: 0 0.3rem 0 #424242;
+}
+
+.playlist__save:active {
+  box-shadow: 0 0 0 0;
+}

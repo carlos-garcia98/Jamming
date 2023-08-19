@@ -1,0 +1,18 @@
+.search-results {
+  color: #fff;
+  text-align: center;
+  border-radius: 0.5rem;
+  width: 50%;
+}
+
+.search-results {
+  padding: 0.5rem;
+}
+
+.search-results__tracklist {
+  border: 1px solid #fff;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: left;
+}

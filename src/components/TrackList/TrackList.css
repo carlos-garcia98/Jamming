@@ -1,0 +1,11 @@
+.track-list {
+  transition: all 0.3s ease-in-out;
+  overflow-y: scroll;
+  height: 30rem;
+  padding: 0 1rem;
+  margin: 0 1rem;
+}
+
+.track-list::-webkit-scrollbar {
+  width: 0.5rem;
+}
